@@ -34,7 +34,7 @@ Now, run the query:
  ?- parent(X, 'Queen Elizabeth II').
 ```
 
-The symbol `?-` is the Prolog query prompt. You do not need to retype this. This query asks who is the parent of Queen Elizabeth II. Prolog first returns the result `X = 'King George VI'`. Type a semicolon (;). This will prmpt Prolog for the next result. Prolog then returns `X = 'Lady Elizabeth Bowes-Lyon'.` The period following teh second result indicates there are no additional results.
+The symbol `?-` is the Prolog query prompt. You do not need to retype this. This query asks who is the parent of Queen Elizabeth II. Prolog first returns the result `X = 'King George VI'`. Type a semicolon (;). This will prompt Prolog for the next result. Prolog then returns `X = 'Lady Elizabeth Bowes-Lyon'.` The period following the second result indicates there are no additional results.
 
 The entire query and result interaction should appear as:
 
@@ -150,7 +150,7 @@ For these lab questions, you are expected to use Prolog to answer. Answers that 
 
 # Troubleshooting
 
-This lab requires an independent study of the Prolog language. You are encouraged to use any web tutorials and resources to learn Prolog. Given the size of the class, I will not be able to debug your code for you. Please do not send panicked emails requesting I fix your bug for you. Allow yourself plenty of time, and use patience, perseverance, and the internt to debug your code. I will gladly answer clarifying questions about the goals and instructions of the Lab assignment.
+This lab requires an independent study of the Prolog language. You are encouraged to use any web tutorials and resources to learn Prolog. Given the size of the class, I will not be able to debug your code for you. Please do not send panicked emails requesting I fix your bug for you. Allow yourself plenty of time, and use patience, perseverance, and the Internet to debug your code. I will gladly answer clarifying questions about the goals and instructions of the Lab assignment.
 
 # Lab Questions
 
@@ -164,7 +164,7 @@ The following questions are for feedback and evaluation purposes. Points are awa
 
 # Submission
 
-Each student will complete and submit this assignment individually or in a two-person team. Do not consult with others. However, you are encouraged to use the internet to learn any aspect of Prolog you need to complete the assignment, but not to answer the questions asked in this lab.
+Each student will complete and submit this assignment individually or in a two-person team. Do not consult with others. However, you are encouraged to use the Internet to learn any aspect of Prolog you need to complete the assignment, but not to answer the questions asked in this lab.
 
 Comment your program heavily. Intelligent comments and a clean, readable formatting of your code accounts for 20% of your grade.
 

@@ -141,10 +141,10 @@ For these lab questions, you are expected to use Prolog to answer. Answers that 
 7. What is the result of query: `?- son(X, 'Queen Elizabeth II').`?
 8. What is the result of query: `?- daughter(X, 'Queen Elizabeth II').`?
 9. What is the result of query: `?- aunt(X, 'Lady Diana Spencer').`?
-10. What is the result of query: `?- spouse(X, 'Prince William, Duke of Cambridge').`?
-11. What is the result of query: `?- ancestor(X, 'Prince Henry of Wales').`?
+10. What is the result of query: `?- spouse(X, 'Prince William').`?
+11. What is the result of query: `?- ancestor(X, 'Prince Henry').`?
 12. What is the result of query: `?- descendant('Queen Victoria', Y).`?
-13. What is the result of query: `?- older('Prince Henry of Wales', 'Prince William, Duke of Cambridge').`?
+13. What is the result of query: `?- older('Prince Henry', 'Prince William').`?
 14. What is the result of query: `?- older(X, 'Queen Elizabeth II').`?
 15. What is the result of query: `?- regentWhenBorn(X, 'Queen Elizabeth II').`?
 

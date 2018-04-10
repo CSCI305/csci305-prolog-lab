@@ -59,8 +59,7 @@ Check that everything is working. First load the `royal.pl` file:
  ?- consult(royal)
 ```
 
- by choosing `File -> Consult` and choosing the file. Next, load the file you created above in SWI-Prolog.
-
+Next, load the file you created above in SWI-Prolog.
 Now, run the query:
 
 ```prolog

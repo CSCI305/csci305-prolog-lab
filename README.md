@@ -3,19 +3,44 @@
 ### Concepts of Programming Languages
 ### CSCI 305, Spring 2018
 
-# Due Date: April 30, 2018 at Midnight
+# Due Date: May 2, 2018 at Midnight
+
+Table of Contents
+=================
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Troubleshooting](#troubleshooting)
+- [Prolog](#prolog)
+- [Dataset](#dataset)
+- [Getting Started](#getting-started)
+- [Warmup](#warmup)
+- [Parents](#parents)
+- [More Rules](#more-rules)
+- [Numbers in Prolog](#numbers-in-prolog)
+- [Extra Credit (10 pts)](#extra-credit-10-pts)
+- [Lab Questions](#lab-questions)
+- [Submission](#submission)
+
+<!-- /TOC -->
+
+# Troubleshooting
+This lab requires an independent study of the Java language. You are encouraged to use any web tutorials and resources to learn Prolog beyond those in the book and provided by me (i.e. you will need to find them).
+- **I will not debug your code -> But I will help you get your program running if you have exhausted all other resources.**
+- **I do not look at code or programs sent to me over email -> But I am willing to work with you during my office hours or during an appointment to clarify and point you in the right direction.**
+- **I am more than willing to discuss your grade or significant issues you are having with the assignments -> But only during my office hours or during an appointment and not during class time when the focus is on other things.**
+- **I am not your IT person nor do I have the expertise to claim I am, therefore I probably can't help get the software running on your system -> But if you visit during my office hours or an appointment I probably can point you in the right direction.**
 
 # Prolog
 
-For this lab, you will use Prolog. I expect you to use the prolog installed in the VM provided for the course, but you can also install it on Windows, Mac, and Linux by downloading from here: http://www.swi-prolog.org/download/stable. Prolog is also installed on the departmental lab Linux machines.
+For this lab, you will use Prolog. You can install it on Windows, Mac, and Linux by downloading from here: http://www.swi-prolog.org/download/stable.
 
 # Dataset
 
-Begin by downloading the file `royal.pro` form BrightSpace. This data was adapted from http://ftp.aset.psu.edu/~saw/royal/. This file is a set of Prolog facts that represents the genealogy of the royal House of Windsor.
+Begin by taking a look at the file `royal.pl` in the project directory. This data was adapted from http://ftp.aset.psu.edu/~saw/royal/. This file is a set of Prolog facts that represents the genealogy of the royal House of Windsor.
 
 # Getting Started
 
-Next, create a new file `[lastname]_[firstname].prolog2.pro`. This file should be in the same directory as `royal.pro`. In this file, you will include all your Prolog rules you will be asked to write in the lab.
+Next, create a new file `prolog_lab.pl`. This file should be in the same directory as `royal.pl`. In this file, you will include all your Prolog rules you will be asked to write in the lab.
 
 Your program should begin with your name as a comment.
 
@@ -26,7 +51,13 @@ Your program should begin with your name as a comment.
 
 # Warmup
 
-Check that everything is working. First load the `royal.pro` file by choosing `File -> Consult` and choosing the file. Next, load the file you created above in SWI-Prolog.
+Check that everything is working. First load the `royal.pl` file:
+
+```prolog
+ ?- consult(royal)
+```
+
+ by choosing `File -> Consult` and choosing the file. Next, load the file you created above in SWI-Prolog.
 
 Now, run the query:
 
@@ -88,7 +119,7 @@ Make sure you get the order of the arguments correct as switching then will chan
 * `grandparent/2`
 * `grandfather/2`
 * `grandmother/2`
-* `grandchile/2`
+* `grandchild/2`
 
 
 For the next two rules, make use of rules you have already written. It may take more than one rule to define these functions. You may find tracing useful. To debug, you can use the keyword `trace` to enable tracing and `notrace` to disable.
@@ -124,10 +155,6 @@ EC2. What is the result of query:
   ?- cousin('Charles, Prince of Wales', X).
  ```
 
-Enable tracing and run both of these queries again.
-
-EC3. Which resulted in more steps? Explain why. Provide both of these traces in a file `[lastname]_[firstname].prolog2.ec.trace.txt`.
-
 # Lab Questions
 
 For these lab questions, you are expected to use Prolog to answer. Answers that are given without providing the Prolog rules that derive it will receive no credit. Some queries have multiple answers and you are expected to provide all results to the lab questions. Use the semicolon (;) to prompt Prolog for additional results. However, you may omit duplicate results, if the same name appears more than once in your result set.
@@ -148,12 +175,6 @@ For these lab questions, you are expected to use Prolog to answer. Answers that 
 14. What is the result of query: `?- older(X, 'Queen Elizabeth II').`?
 15. What is the result of query: `?- regentWhenBorn(X, 'Queen Elizabeth II').`?
 
-# Troubleshooting
-
-This lab requires an independent study of the Prolog language. You are encouraged to use any web tutorials and resources to learn Prolog. Given the size of the class, I will not be able to debug your code for you. Please do not send panicked emails requesting I fix your bug for you. Allow yourself plenty of time, and use patience, perseverance, and the Internet to debug your code. I will gladly answer clarifying questions about the goals and instructions of the Lab assignment.
-
-# Lab Questions
-
 The following questions are for feedback and evaluation purposes. Points are awarded for any sincere answer.
 
 16. Name something you like about Prolog. Explain.
@@ -166,10 +187,20 @@ The following questions are for feedback and evaluation purposes. Points are awa
 
 Each student will complete and submit this assignment individually or in a two-person team. Do not consult with others. However, you are encouraged to use the Internet to learn any aspect of Prolog you need to complete the assignment, but not to answer the questions asked in this lab.
 
-Comment your program heavily. Intelligent comments and a clean, readable formatting of your code accounts for 20% of your grade.
+Comment your program appropriately. Intelligent comments and a clean, readable formatting of your code accounts for 20% of your grade.
 
-Save the final version of your program and zip the source code into a file named `[lastname]_[firstname].prolog2.zip`. Type your lab questions in plain text as `[lastname]_[firstname].prolog2.txt`. Include your name in the text file.
+Save the final version of your program and zip the source code and questions.txt into a file named `[lastname]_[firstname].prolog_lab.zip`.
 
 We must be able to run your program from the command line with no arguments.
 
-Submit your files to the Java Program 2 dropbox folder on BrightSpace. Submit your files before the due date as late submissions will not be accepted.
+Submit your files to the Prolog Lab dropbox folder on BrightSpace. Submit your file before the due date as late submissions will not be accepted.
+
+# Grading
+
+Total Assignment Points: 50, Available Extra Credit: 10 points, Total Grade Points: 7.5
+
+The rubric for this assignment is as follows:
+* 2 points each for questions 1 - 15, Total 30 points
+* 5 points total for questions 16-20
+* 10 points for working code, with no errors: All or nothing
+* 5 points for documented code

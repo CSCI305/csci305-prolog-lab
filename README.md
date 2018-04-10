@@ -34,6 +34,8 @@ This lab requires an independent study of the Java language. You are encouraged 
 
 For this lab, you will use Prolog. You can install it on Windows, Mac, and Linux by downloading from here: http://www.swi-prolog.org/download/stable.
 
+Once you have Prolog installed on your machine, clone this repository and start the lab. Good Luck!
+
 # Dataset
 
 Begin by taking a look at the file `royal.pl` in the project directory. This data was adapted from http://ftp.aset.psu.edu/~saw/royal/. This file is a set of Prolog facts that represents the genealogy of the royal House of Windsor.

@@ -148,12 +148,12 @@ Write rule(x) that define the first cousin relationship, `cousin/2`. You should 
 EC1. What is the result of query:
 
  ```prolog
-  ?- cousin(X, 'Charles, Prince of Wales').
+  ?- cousin(X, 'Prince Charles').
  ```
 
 EC2. What is the result of query:
  ```prolog
-  ?- cousin('Charles, Prince of Wales', X).
+  ?- cousin('Prince Charles', X).
  ```
 
 # Lab Questions

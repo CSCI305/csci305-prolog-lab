@@ -11,6 +11,7 @@ female('Lady Diana Spencer').
 female('Princess Anne').
 female('Catherine Middleton').
 female('Princess Charlotte').
+female('Lady Sarah Chatto').
 
 male('Prince Albert').
 male('King Edward VII').
@@ -24,6 +25,8 @@ male('Prince Edward').
 male('Prince William').
 male('Prince Henry').
 male('Prince George').
+male('Viscount Linley').
+mail('Antony Armstrong-Jones').
 
 reigned('Queen Victoria', 1819, 1901).
 reigned('King Edward VII', 1901, 1910).
@@ -55,6 +58,9 @@ born('Prince William', 1982).
 born('Prince Henry', 1984).
 born('Prince George', 2013).
 born('Princess Charlotte', 2015).
+born('Viscount Linley', 1961).
+born('Lady Sarah Chatto', 1964).
+born('Antony Armstrong-Jones', 1930).
 
 died('Queen Victoria', 1901).
 died('Princess Alexandra of Denmark', 1925).
@@ -68,6 +74,7 @@ died('King Edward VII', 1910).
 died('King George V', 1936).
 died('King Edward VIII', 1972).
 died('King George VI', 1952).
+died('Antony Armstrong-Jones', 2017).
 
 married('Prince Albert', 'Queen Victoria').
 married('King Edward VII', 'Princess Alexandra of Denmark').
@@ -77,13 +84,14 @@ married('King George VI', 'Lady Elizabeth Bowes-Lyon').
 married('Queen Elizabeth II', 'Prince Philip').
 married('Prince Charles', 'Lady Diana Spencer').
 married('Prince William', 'Catherine Middleton').
+married('Antony Armstrong-Jones', 'Princess Margaret').
 
 parent('Prince Albert', 'King Edward VII').
 parent('Queen Victoria', 'King Edward VII').
 parent('King Edward VII', 'King George V').
 parent('Princess Alexandra of Denmark', 'King George V').
 parent('King George V', 'King Edward VIII').
-parent('Queen Mary', 'King Edward VIII'). 
+parent('Queen Mary', 'King Edward VIII').
 parent('King George V', 'King George VI').
 parent('Queen Mary', 'King George VI').
 parent('King George VI', 'Queen Elizabeth II').
@@ -106,3 +114,7 @@ parent('Catherine Middleton', 'Prince George').
 parent('Prince William', 'Prince George').
 parent('Catherine Middleton', 'Princess Charlotte').
 parent('Prince William', 'Princess Charlotte').
+parent('Antony Armstrong-Jones', 'Viscount Linley').
+parent('Princess Margaret', 'Viscount Linley').
+parent('Antony Armstrong-Jones', 'Lady Sarah Chatto').
+parent('Princess Margaret', 'Lady Sarah Chatto').

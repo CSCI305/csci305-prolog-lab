@@ -26,7 +26,7 @@ male('Prince William').
 male('Prince Henry').
 male('Prince George').
 male('Viscount Linley').
-mail('Antony Armstrong-Jones').
+male('Antony Armstrong-Jones').
 
 reigned('Queen Victoria', 1819, 1901).
 reigned('King Edward VII', 1901, 1910).
@@ -81,7 +81,7 @@ married('King Edward VII', 'Princess Alexandra of Denmark').
 married('King George V', 'Queen Mary').
 married('King Edward VIII', 'Mrs Simpson').
 married('King George VI', 'Lady Elizabeth Bowes-Lyon').
-married('Queen Elizabeth II', 'Prince Philip').
+married('Prince Philip', 'Queen Elizabeth II').
 married('Prince Charles', 'Lady Diana Spencer').
 married('Prince William', 'Catherine Middleton').
 married('Antony Armstrong-Jones', 'Princess Margaret').
